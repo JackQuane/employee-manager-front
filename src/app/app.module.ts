@@ -9,6 +9,7 @@ import { EmployeeDashboardComponent } from './employee-dashboard/employee-dashbo
 import { TestComponent } from './test/test.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
 // import { HttpClient } from "@angular/common/http";
 // import {Component} from '@angular/core';
 
@@ -17,7 +18,8 @@ import { LoginComponent } from './login/login.component';
     AppComponent,
     EmployeeDashboardComponent,
     TestComponent,
-    LoginComponent
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
